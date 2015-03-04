@@ -31,7 +31,7 @@ class LovelaceStyle(Style):
         Comment.Preproc:     'noitalic #289870',
         Comment.Multiline:   '#888888',
 
-        Keyword:             '#3838b0',
+        Keyword:             '#2838a0',
         Keyword.Constant:    'italic #387838',
         Keyword.Declaration: 'italic',
         Keyword.Type:        'italic',
@@ -48,13 +48,13 @@ class LovelaceStyle(Style):
         Name.Constant:       '#b85820',
         Name.Decorator:      '#287088',
         Name.Entity:         '#709030', # Same colour as String.Escape
-        Name.Exception:      '#a89028',
+        Name.Exception:      '#908828',
         Name.Function:       '#705038',
-        Name.Label:          '#289870',
+        Name.Label:          '#289870', # Same colour as Comment.Preproc
         Name.Namespace:      '#289870',
-        Name.Tag:            '#3838b0', # Same colour as Keyword
+        Name.Tag:            '#2838a0', # Same colour as Keyword
         Name.Variable:       '#b04040',
-        Name.Variable.Global:'#a89028',
+        Name.Variable.Global:'#908828', # Same colour as Name.Exception
 
         String:              '#b03838',
         String.Char:         '#a048a0',
@@ -75,7 +75,7 @@ class LovelaceStyle(Style):
         Generic.Output:      '#666666',
         Generic.Prompt:      '#444444',
         Generic.Strong:      'bold',
-        Generic.Traceback:   '#4040b0',
+        Generic.Traceback:   '#2830a0', # Same colour as Keyword
 
         Error:               'bg:#a048a0',
     }
