@@ -12,6 +12,7 @@ dim and desaturated colours.
 - Move Python's None, True and False to Keyword.Constant
 - "%s" string interpolation back for Py3
 - "{identifier}" string interpolation for Py3
+    * https://docs.python.org/3/library/string.html#format-string-syntax
 - New token Comment.Hashbang
     * For all languages with # comments
     * First lines following the form #!path arg
