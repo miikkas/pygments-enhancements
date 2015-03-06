@@ -15,6 +15,14 @@ dim and desaturated colours.
     * https://docs.python.org/3/library/string.html#format-string-syntax
 - New token Comment.Hashbang [DONE]
     * For all languages with # comments
+        * Python [DONE]
+        * Ruby
+        * Shell scripts
+        * Perl
+        * PHP
+        * Tcl
+        * Awk
     * First lines following the form #!path arg
+    * Documentation: doc/docs/tokens.rst
 - Command line option for pygmentize to select a style definition from file
 - "<", "</" and ">" as Punctuation in HTML
