@@ -28,8 +28,9 @@ class LovelaceStyle(Style):
     styles = {
         Whitespace:          '#a89028',
         Comment:             'italic #888888',
-        Comment.Preproc:     'noitalic #289870',
+        Comment.Hashbang:    '#289870',
         Comment.Multiline:   '#888888',
+        Comment.Preproc:     'noitalic #289870',
 
         Keyword:             '#2838a0',
         Keyword.Constant:    'italic #387838',
