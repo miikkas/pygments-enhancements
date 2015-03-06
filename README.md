@@ -10,11 +10,11 @@ dim and desaturated colours.
     * Python: self, args, kwargs
     * C, C++: argc, argv
 - Move Python's None, True and False to Keyword.Constant
-- "%s" string interpolation back for Py3
-- "{identifier}" string interpolation for Py3
+- "%s" string interpolation back for Py3 [DONE]
+- "{identifier}" string interpolation for Py3 [DONE]
     * https://docs.python.org/3/library/string.html#format-string-syntax
-- New token Comment.Hashbang
+- New token Comment.Hashbang [DONE]
     * For all languages with # comments
     * First lines following the form #!path arg
 - Command line option for pygmentize to select a style definition from file
-
+- "<", "</" and ">" as Punctuation in HTML
